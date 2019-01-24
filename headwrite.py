@@ -11,4 +11,4 @@ while True:
 with open('Test.csv', 'w', encoding = 'UTF-8') as f:
 	f.write('Number,Price\n')
 	for i in products:
-		f.write(str(i) + '\n')        
+		f.write(str(i) + '\n') #新增商品title       
